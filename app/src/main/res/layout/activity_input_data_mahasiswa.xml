@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.terminator.ngajarmysql.InputDataMahasiswa">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edNpm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="NPM"
+            android:inputType="textEmailAddress"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edNama"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:inputType="textEmailAddress"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edAlamat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:inputType="textEmailAddress"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInput"
+        android:text="Input Data"/>
+</LinearLayout>
